@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="harga" type="text" placeholder="Masukan nominal">
+    <input id="uangmuka" type="text" placeholder="Masukan nominal">
+    <input id="bunga" type="text" placeholder="Masukan nominal">
+    <select  id="tahun">
+        <option value="12">Jangka Waktu : 1 Tahun</option>
+        <option value="24">Jangka Waktu : 2 Tahun</option>
+        <option value="36">Jangka Waktu : 3 Tahun</option>
+        <option value="48">Jangka Waktu : 4 Tahun</option>
+        <option value="60">Jangka Waktu : 5 Tahun</option>
+        <option value="72">Jangka Waktu : 6 Tahun</option>
+    </select>
+
+    
+    <button onclick="Pinjaman()" id="btn">masukan</button>
+    <div class="totalpinjaman">
+        <h5>TOTAL PINJAMAN KAMU : </h5>
+        <h4 >Rp. <span id="tujuan1"></span></h4>
+    </div>
+    <div class="TOTAL DP">
+        <h5>TOTAL DP ANDA : </h5>
+        <h4 >Rp. <span id="tujuan2"></span></h4>
+    </div>
+    <div class="totalpinjaman">
+        <h5>TOTAL ANGSURAN ANDA / BULAN  : </h5>
+        <h4 >Rp. <span id="tujuan3"></span></h4>
+    </div>
+    
+    <!-- <script src="latihan.js"></script> -->
+    <script src="inter-logic.js"></script>
+
+    <!-- <script src="Palindrom.js"></script> -->
+    <!-- <script src="Fizbuz.js"></script>   -->
+    <!-- <script src="Deret-Prima.js"></script> -->
+    <!-- <script src="bintang.js"></script> -->
+</body>
+</html>
